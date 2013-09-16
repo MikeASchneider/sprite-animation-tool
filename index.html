@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animation Tester</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Animation testing tool</h1>
+    <p>This tool was created to debug animation sprite sheets. To test your own image, upload it to any image host and paste the URL into the "Image" box, input the delay between frames in the "Delay" box, and input the height of each frame in the "Height" box.</p>
+    <div id="sprite-box"></div>
+    <div>
+      <label>Image:</label>
+      <input type="text" id="img-url" placeholder=".png url"></input>
+    </div>
+    <div>
+      <label>Delay:</label>
+      <input type="text" id="delay" placeholder="Time in ms (e.g., 100)"></input>
+    </div>
+    <div>
+      <label>Height</label>
+      <input type="text" id="height" placeholder="Height"></input>
+    </div>
+    <button>Try new settings</button>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
