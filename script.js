@@ -44,6 +44,7 @@ $(function() {
   $('#restart').on('click', function() {
     console.log('restarting animation');
     clearInterval(interval);
-    animate(img, height, delay);
+    $spritebox.css('background-position-y', 0);
+    animate($spritebox, height, delay);
   });
 });
